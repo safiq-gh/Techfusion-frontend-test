@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // ✅ GET FROM ENVIRONMENT VARIABLES
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api";
 const API_TIMEOUT = Number(import.meta.env.VITE_API_TIMEOUT) || 15000;
 
 // ✅ LOG CONFIGURATION (ONLY IN DEVELOPMENT)

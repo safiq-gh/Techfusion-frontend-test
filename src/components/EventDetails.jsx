@@ -14,7 +14,7 @@ export default function EventDetails() {
   const details = [
     { icon: Calendar, label: "Date", value: "8th April 2026", color: "#00d4ff" },
     { icon: Clock, label: "Time", value: "9 AM - 5 PM", color: "#a855f7" },
-    { icon: MapPin, label: "Venue", value: "IT Auditorium", color: "#ec4899" },
+    { icon: MapPin, label: "Venue", value: "Mechanical Block", color: "#ec4899" },
     { icon: Users, label: "Slots Left", value: event?.slots_available ?? 156, color: "#10b981" },
   ];
 
